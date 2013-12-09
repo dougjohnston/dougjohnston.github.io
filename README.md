@@ -1,4 +1,4 @@
-dougjohnston.github.io
-======================
+dojosto.com
+===========
 
-My personal website.
+A small website about me, Doug Johnston.
