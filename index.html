@@ -10,7 +10,13 @@ an international school and continue to hack on side projects whenever I
 have the time.</p>
 
 <h3><a name="blog" class="anchor" href="#blog"></a>This Is My Blog.</h3>
-<p>No posts yet.</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 <h3><a name="projects" class="anchor" href="#projects"></a>Current Projects.</h3>
 <p>A list of projects.</p>
