@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Book Review - The Modern Web
+title: The Modern Web
 ---
 
 Every industry evolves and changes over time. New techniques are adopted,
