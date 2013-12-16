@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Interactive Python
+excerpt: <p>My attempt to learn Python (and the basics of game development) at Coursera.</p>
 ---
 
 Python has been on my list of languages to learn for several years. But up
@@ -21,7 +22,8 @@ professors from Rice University) appealed to me for a number of reasons:
 * The course was free.
 
 Earlier this week, I finished my final program for the class - a fun little
-game based on [Atari's 1979 classic, Asteroids](http://en.wikipedia.org/wiki/Asteroids_(video_game)) ([view my version of the game](http://www.codeskulptor.org/#user27_C7mE1hgmtpv7B8V.py) -
+game based on [Atari's 1979 classic,
+Asteroids](http://www.atari.com/arcade/asteroids) ([view my version of the game](http://www.codeskulptor.org/#user27_C7mE1hgmtpv7B8V.py) -
 just click the 'play' button). In many ways, the original Asteroids is still
 better, but building the game did teach me all about animating sprites,
 collisions, and how to code a simple physics engine. I knew about these
