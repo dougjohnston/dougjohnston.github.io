@@ -1,3 +1,4 @@
 name: Doug Johnston's Web Development Blog
 description: My journey as a web developer.
 url: http://www.dojosto.com
+markdown: kramdown
