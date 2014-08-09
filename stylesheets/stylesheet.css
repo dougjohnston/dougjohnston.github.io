@@ -24,12 +24,18 @@ header {
   /*padding-bottom: 25px;*/
 }
 
-header h1 {
+header h1, header h1 a {
   font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-weight: 600;
   font-size: 48px;
   color: #c0c0c0;
   margin-bottom: 0;
+}
+
+header h1 a:hover {
+  color: #c0c0c0;
+  text-decoration: none;
+  border-bottom: 1px dotted #c0c0c0;
 }
 
 header h1 em {
