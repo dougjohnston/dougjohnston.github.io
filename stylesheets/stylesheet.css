@@ -27,7 +27,7 @@ header {
 header h1, header h1 a {
   font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-weight: 600;
-  font-size: 48px;
+  font-size: 58px;
   color: #c0c0c0;
   margin-bottom: 0;
 }
@@ -94,7 +94,8 @@ pre code {
 }
 
 ul, ol, dl {
-  margin-bottom: 20px;
+  margin-bottom: 1.4em;
+  margin-left: 0.4em;
 }
 
 
