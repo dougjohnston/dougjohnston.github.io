@@ -9,16 +9,9 @@ title: Doug Johnston, Web Application Developer & Designer
   I'm passionate about building attractive, intuitive, and user-friendly web experiences with Ruby on Rails and JavaScript.
   When I'm not building websites, I like to experiment with graphic design, music, and photography.
 </p>
-
-<h3><a name="blog" class="anchor" href="#blog"></a>Some Thoughts.</h3>
-<ul>
-  {% for post in site.posts %}
-    <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+<p>
+  View <a href="/resume/">my resume</a>.
+<p>
 
 <h3><a name="projects" class="anchor" href="#projects"></a>Current Side Projects.</h3>
 <ul>
@@ -31,3 +24,14 @@ title: Doug Johnston, Web Application Developer & Designer
     A proof-of-concept website and iOS app that encourages people to share inspiring stories.
   </li>
 </ul>
+
+<h3><a name="blog" class="anchor" href="#blog"></a>Some Thoughts.</h3>
+<ul>
+  {% for post in site.posts %}
+    <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+

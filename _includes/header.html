@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/foundation.min.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
@@ -50,13 +50,18 @@
         <header>
           <h1><a href="/"><em>do</em>ug<em>jo</em>hn<em>sto</em>n</a></h1>
           <h2>Web Application Developer & Designer</h2>
-          <ul class="inline-list">
-            {% if include.home == "false" %}
-              <li><a href="/">Home</a></li>
-            {% endif %}
-            <li><a href="https://github.com/dougjohnston">GitHub</a></li>
-            <li><a href="https://twitter.com/dougjohnston">Twitter</a></li>
-            <li><a href="http://www.linkedin.com/in/dougbjohnston">LinkedIn</a></li>
-            <!--<li><a href="/resume/">Résumé</a></li>-->
-          </ul>
+          <nav>
+            <ul class="inline-list">
+              {% if include.home == "false" %}
+                <li><a href="/">Home</a></li>
+              {% else %}
+              <li><a href="/" class='active'>Home</a></li>
+              {% endif %}
+              <li><a href="/resume/" {% if page.current == 'resume' %}class='active'{% endif %}>Resumé</a></li>
+              <!--<li><a href="/portfolio/">Portfolio</a></li>-->
+              <li><a href="https://github.com/dougjohnston">GitHub</a></li>
+              <li><a href="https://twitter.com/dougjohnston">Twitter</a></li>
+              <li><a href="http://www.linkedin.com/in/dougbjohnston">LinkedIn</a></li>
+            </ul>
+          </nav>
         </header>

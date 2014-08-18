@@ -5,7 +5,11 @@ body {
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  color: #6d6d6d;
+  color: #666;
+}
+
+strong {
+  color: #595959;
 }
 
 a {
@@ -21,13 +25,13 @@ small {
 
 header {
   padding-top: 35px;
-  /*padding-bottom: 25px;*/
 }
 
 header h1, header h1 a {
   font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-weight: 600;
   font-size: 58px;
+  line-height: 68px;
   color: #c0c0c0;
   margin-bottom: 0;
 }
@@ -47,9 +51,14 @@ header h1 em {
 header h2 {
   font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   font-weight: 400;
-  font-size: 24px;
-  color: #999;
+  font-size: 1.6rem;
+  color: #aaa;
   margin-top: 0;
+}
+
+nav .active {
+  font-weight: bold;
+  border-bottom: 2px solid #333;
 }
 
 #container {
@@ -93,86 +102,45 @@ pre code {
   padding: 0;
 }
 
-ul, ol, dl {
-  margin-bottom: 1.4em;
-  margin-left: 0.4em;
-}
-
-
 /* COMMON STYLES */
 
 hr {
   height: 1px;
   line-height: 1px;
-  /*margin-top: 1em;*/
-  /*padding-bottom: 1em;*/
   border: none;
   background: transparent url('../images/hr.png') 50% 0 no-repeat;
 }
 
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
-}
-
-table {
-  width: 100%;
-  border: 1px solid #ebebeb;
-}
-
-th {
-  font-weight: 500;
-}
-
-td {
-  border: 1px solid #ebebeb;
-  text-align: center; 
-  font-weight: 300;
-}
-
-form {
-  background: #f2f2f2;
-  padding: 20px;
-}
-
-
-/* GENERAL ELEMENT TYPE STYLES */
-
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 } 
 
 h2 {
+  color: #303030;
   font-size: 22px;
   font-weight: bold;
-  color: #303030;
-  margin-bottom: 8px;
 } 
 
 h3 {
   color: #008cba;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 8px;
 } 
  
 h4 {
-  font-size: 16px;
   color: #303030;
+  font-size: 16px;
   font-weight: bold;
 } 
 
 h5 {
-  font-size: 1em;
   color: #303030;
+  font-size: 1em;
 } 
 
 h6 {
-  font-size: .8em;
   color: #303030;
+  font-size: .8em;
 } 
 
 p {
@@ -199,18 +167,6 @@ blockquote {
   padding: 0 0 0 30px;
 }
 
-ul li {
-  list-style: disc outside;
-  padding-left: 2px;
-  margin-left: 30px;
-}
-
-ol li {
-  list-style: decimal outside;
-  padding-left: 3px;
-  margin-left: 20px;
-}
-
 dl dt {
   color: #303030;
 }
@@ -227,11 +183,11 @@ footer {
 footer a {
   color: #666;
 }
+
 footer a:hover {
   color: #444;
 }
 
-/* MISC */
 .clearfix:after {
   clear: both;
   content: '.';
@@ -243,6 +199,50 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+/* PAGE SPECIFIC STYLES */
+/* RESUME */
+#contact-information h1 {
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+}
+
+#contact-information h3 {
+  font-weight: normal;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.job h2 {
+  margin-bottom: 0;
+  font-size: 1.15rem;
+  line-height: 1.3rem;
+}
+
+.job h2 small {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.job h2 span {
+  font-weight: normal;
+  color: #666;
+}
+
+.job h3 {
+  margin-bottom: 0;
+  font-size: 1.05rem;
+  font-weight: normal;
+}
+
+.job em {
+  font-size: 0.9rem;
+}
+
+.job ul {
+  margin: 0 0 1rem 2rem;
+  list-style-type: square;
+}
 
 /* #Media Queries
 ================================================== */
