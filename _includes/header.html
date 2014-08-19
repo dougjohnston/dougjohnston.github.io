@@ -32,6 +32,7 @@
 
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
     <![endif]-->
 
     <script>
@@ -58,7 +59,7 @@
               <li><a href="/" class='active'>Home</a></li>
               {% endif %}
               <li><a href="/resume/" {% if page.current == 'resume' %}class='active'{% endif %}>Resumé</a></li>
-              <!--<li><a href="/portfolio/">Portfolio</a></li>-->
+              <li><a href="/portfolio/" {% if page.current == 'portfolio' %}class='active'{% endif %}>Portfolio</a></li>
               <li><a href="https://github.com/dougjohnston">GitHub</a></li>
               <li><a href="https://twitter.com/dougjohnston">Twitter</a></li>
               <li><a href="http://www.linkedin.com/in/dougbjohnston">LinkedIn</a></li>

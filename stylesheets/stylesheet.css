@@ -1,4 +1,3 @@
-/* LAYOUT STYLES */
 body {
   font-size: 1em;
   line-height: 1.5; 
@@ -8,21 +7,127 @@ body {
   color: #666;
 }
 
-strong {
-  color: #595959;
+p {
+  margin-bottom: 20px;
+}
+
+p a {
+  font-weight: 400;
 }
 
 a {
   color: #d5000d;
+  text-decoration: none;
 }
 a:hover {
   color: #c5000c;
+  text-decoration: underline;
+}
+
+strong {
+  color: #595959;
 }
 
 small {
   font-size: 0.8em;
 }
 
+code, pre {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+  color: #222;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+hr {
+  height: 1px;
+  line-height: 1px;
+  border: none;
+  background: transparent url('../images/hr.png') 50% 0 no-repeat;
+}
+
+h1 {
+  font-size: 2rem;
+} 
+
+h2 {
+  color: #303030;
+  font-size: 22px;
+  font-weight: bold;
+} 
+
+h3 {
+  color: #008cba;
+  font-size: 18px;
+  font-weight: bold;
+} 
+ 
+h4 {
+  color: #303030;
+  font-size: 16px;
+} 
+
+h5 {
+  color: #303030;
+  font-size: 1em;
+} 
+
+h6 {
+  color: #303030;
+  font-size: .8em;
+} 
+
+blockquote {
+  font-size: 1.6em;
+  border-left: 10px solid #e9e9e9;
+  margin-bottom: 20px;
+  padding: 0 0 0 30px;
+}
+
+code {
+  background-color: #f2f2f2;
+  border: solid 1px #ddd;
+  padding: 0 3px;
+}
+
+pre {
+  padding: 20px;
+  background: #303030;
+  color: #f2f2f2;
+  text-shadow: none;
+  overflow: auto;
+}
+pre code {
+  color: #f2f2f2;
+  background-color: #303030;
+  border: none;
+  padding: 0;
+}
+
+/* #Container
+================================================== */
+#container {
+  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  min-height: 595px;
+}
+
+.inner {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.inner-wide {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#container .inner img {
+  max-width: 100%;
+}
+
+
+/* #Header
+================================================== */
 header {
   padding-top: 35px;
 }
@@ -61,116 +166,8 @@ nav .active {
   border-bottom: 2px solid #333;
 }
 
-#container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
-  min-height: 595px;
-}
-
-.inner {
-  width: 620px;
-  margin: 0 auto;
-}
-
-#container .inner img {
-  max-width: 100%;
-}
-
-code, pre {
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
-  color: #222;
-  margin-bottom: 30px;
-  font-size: 14px;
-}
-
-code {
-  background-color: #f2f2f2;
-  border: solid 1px #ddd;
-  padding: 0 3px;
-}
-
-pre {
-  padding: 20px;
-  background: #303030;
-  color: #f2f2f2;
-  text-shadow: none;
-  overflow: auto;
-}
-pre code {
-  color: #f2f2f2;
-  background-color: #303030;
-  border: none;
-  padding: 0;
-}
-
-/* COMMON STYLES */
-
-hr {
-  height: 1px;
-  line-height: 1px;
-  border: none;
-  background: transparent url('../images/hr.png') 50% 0 no-repeat;
-}
-
-h1 {
-  font-size: 2rem;
-} 
-
-h2 {
-  color: #303030;
-  font-size: 22px;
-  font-weight: bold;
-} 
-
-h3 {
-  color: #008cba;
-  font-size: 18px;
-  font-weight: bold;
-} 
- 
-h4 {
-  color: #303030;
-  font-size: 16px;
-  font-weight: bold;
-} 
-
-h5 {
-  color: #303030;
-  font-size: 1em;
-} 
-
-h6 {
-  color: #303030;
-  font-size: .8em;
-} 
-
-p {
-  font-weight: 300;
-  margin-bottom: 20px;
-}
- 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-p a {
-  font-weight: 400;
-}
-
-blockquote {
-  font-size: 1.6em;
-  border-left: 10px solid #e9e9e9;
-  margin-bottom: 20px;
-  padding: 0 0 0 30px;
-}
-
-dl dt {
-  color: #303030;
-}
-
+/* #Footer
+================================================== */
 footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
@@ -188,20 +185,9 @@ footer a:hover {
   color: #444;
 }
 
-.clearfix:after {
-  clear: both;
-  content: '.';
-  display: block;
-  visibility: hidden;
-  height: 0;
-}
-
-.clearfix {display: inline-block;}
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
-
 /* PAGE SPECIFIC STYLES */
-/* RESUME */
+/* #Resume
+================================================== */
 #contact-information h1 {
   font-size: 2.8rem;
   line-height: 3.2rem;
@@ -244,6 +230,105 @@ footer a:hover {
   list-style-type: square;
 }
 
+/* #Portfolio
+================================================== */
+#portfolio {
+}
+
+#portfolio article {
+  float: left;
+  position: relative;
+  width: 295px;
+  height: 184px;
+  margin: 0 0 30px 15px;
+  padding: 0;
+  border: 4px solid rgb(200,200,200);
+  border: 4px solid rgba(200,200,200,0.4);
+}
+
+#portfolio article:hover {
+  border: 4px solid rgb(0,0,0,0.4);
+  border: 4px solid rgba(0,0,0,0.4);
+}
+
+#portfolio article:hover img {
+  -webkit-filter: none;
+  filter: grayscale(0%);
+  filter: none;
+}
+
+#portfolio article:hover header {
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.7);
+}
+
+#portfolio article:hover h3 {
+  text-decoration: underline;
+}
+
+#portfolio article:nth-child(odd) {
+  clear: left;
+  margin-left: 0;
+}
+
+#portfolio article img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+
+#portfolio header {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 5px 10px;
+  background: rgb(100,0,0);
+  background: rgba(100,0,0,0.6);
+}
+
+#portfolio header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: 0 0 0;
+  color: #fff;
+}
+
+#portfolio header h5 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 300;
+  text-shadow: 0 0 0;
+  color: #ccc;
+}
+
+#project aside {
+  float: right;
+  width: 205px;
+  margin-top: -4px;
+}
+
+#project h2 {
+  margin: 0;
+}
+
+#project h4 {
+  margin: 0 0 10px;
+}
+
+#project p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#project img {
+  width: 404px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+}
+
 /* #Media Queries
 ================================================== */
 
@@ -258,12 +343,6 @@ footer a:hover {
   header {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-  #downloads {
-    margin-bottom: 25px;
-  }
-  #download-zip, #download-tar-gz {
-    display: none;
   }
   .inner {
     width: 94%;
