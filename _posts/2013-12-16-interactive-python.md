@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Interactive Python
+description: My experience with Rice University's Interactive Python course at Coursera.
 excerpt: <p>My attempt to learn Python (and the basics of game development) at Coursera.</p>
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: The Modern Web
+description: A book review of 'The Modern Web', by Peter Gasston.
 excerpt: <p>Keeping up with the evolution of web technologies.</p>
 ---
 
