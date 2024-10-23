@@ -1,6 +1,6 @@
 body {
   font-size: 1em;
-  line-height: 1.5; 
+  line-height: 1.5;
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
@@ -19,6 +19,7 @@ a {
   color: #d5000d;
   text-decoration: none;
 }
+
 a:hover {
   color: #c5000c;
   text-decoration: underline;
@@ -32,7 +33,8 @@ small {
   font-size: 0.8em;
 }
 
-code, pre {
+code,
+pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
   margin-bottom: 30px;
@@ -48,34 +50,34 @@ hr {
 
 h1 {
   font-size: 2rem;
-} 
+}
 
 h2 {
   color: #303030;
   font-size: 22px;
   font-weight: bold;
-} 
+}
 
 h3 {
   color: #008cba;
   font-size: 18px;
   font-weight: bold;
-} 
- 
+}
+
 h4 {
   color: #303030;
   font-size: 16px;
-} 
+}
 
 h5 {
   color: #303030;
   font-size: 1em;
-} 
+}
 
 h6 {
   color: #303030;
   font-size: .8em;
-} 
+}
 
 blockquote {
   font-size: 1.6em;
@@ -97,6 +99,7 @@ pre {
   text-shadow: none;
   overflow: auto;
 }
+
 pre code {
   color: #f2f2f2;
   background-color: #303030;
@@ -132,12 +135,13 @@ header {
   padding-top: 35px;
 }
 
-header h1, header h1 a {
-  font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+header h1,
+header h1 a {
+  font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 58px;
   line-height: 68px;
-  color: #c0c0c0;
+  color: #404040;
   margin-bottom: 0;
 }
 
@@ -147,14 +151,8 @@ header h1 a:hover {
   border-bottom: 1px dotted #c0c0c0;
 }
 
-header h1 em {
-  font-style: normal;
-  font-size: 68px;
-  color: #303030;
-}
-
 header h2 {
-  font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  font-family: 'Exo 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   color: #aaa;
@@ -232,8 +230,7 @@ footer a:hover {
 
 /* #Portfolio
 ================================================== */
-#portfolio {
-}
+#portfolio {}
 
 #portfolio article {
   float: left;
@@ -242,8 +239,8 @@ footer a:hover {
   height: 184px;
   margin: 0 0 30px 15px;
   padding: 0;
-  border: 4px solid rgb(200,200,200);
-  border: 4px solid rgba(200,200,200,0.4);
+  border: 4px solid rgb(200, 200, 200);
+  border: 4px solid rgba(200, 200, 200, 0.4);
   overflow: hidden;
 
   -webkit-transition: all 500ms ease;
@@ -253,8 +250,8 @@ footer a:hover {
 }
 
 #portfolio article:hover {
-  border: 4px solid rgb(0,0,0,0.4);
-  border: 4px solid rgba(0,0,0,0.4);
+  border: 4px solid rgb(0, 0, 0, 0.4);
+  border: 4px solid rgba(0, 0, 0, 0.4);
 }
 
 #portfolio article:hover img {
@@ -262,10 +259,10 @@ footer a:hover {
   filter: grayscale(0%);
   filter: none;
 
-  -webkit-filter: blur(1px); 
-  -moz-filter: blur(1px); 
-  -o-filter: blur(1px); 
-  -ms-filter: blur(1px); 
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
   filter: blur(1px);
 }
 
@@ -295,8 +292,8 @@ footer a:hover {
   width: 100%;
   margin: 0;
   padding: 5px 10px;
-  background: rgb(0,0,0);
-  background: rgba(0,0,0,0.65);
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.65);
 
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -360,6 +357,7 @@ footer a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .inner {
     width: 94%;
     margin: 0 auto;
